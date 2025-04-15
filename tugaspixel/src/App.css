@@ -1,0 +1,152 @@
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+} */
+
+
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.GreyBackground {
+
+  width: 1920;
+  height: 1080;
+  top: -362px;
+  left: -337px;
+  background: #1F1E1E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.background {
+  width: 52.083vw;
+  height: 33.438vw;
+  top: -7.448vw;
+  left: 6.406vw;
+  border-radius: 1.042vw;
+  background: #000000;
+  /* margin-top: 219px;
+  margin-bottom: 219px; */
+  /* margin-left: 460px;
+  margin-right: 460px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+
+}
+
+
+.kecerdasanVisual {
+
+  width: 9.323vw;
+  height: 1.25vw;
+  top: -1.875vw;
+  left: 11.094vw;
+  font-family: Inter;
+  font-weight: 36.458vw;
+  font-size: 1.042vw;
+  line-height: 1.208vw;
+  letter-spacing: 0%;
+  color: #86868B;
+
+}
+
+
+.LihatDunia {
+  width: 17.656vw;
+  height: 5.313vw;
+  top: 0.156vw;
+  left: 11.094vw;
+  font-family: Inter;
+  font-weight: 36.458vw;
+  font-size: 2.188vw;
+  line-height: 2.208vw;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+
+}
+
+
+.GunakanKecerdasanVisual {
+  width: 18.438vw;
+  height: 13.75vw;
+  top: 6.615vw;
+  left: 11.094vw;
+  font-family: Inter;
+  font-weight: 36.458vw;
+  font-size: 0.938vw;
+  /* line-height: 100%; */
+  letter-spacing: 0%;
+  font-family: Inter;
+  font-weight: 36.458vw;
+  font-size: 0.938vw;
+  /* line-height: 5.208vw; */
+  letter-spacing: 0%;
+  color: #86868B;
+
+}
+
+
+.span {
+  font-family: Inter;
+  font-weight: 36.458vw;
+  font-size: 0.938vw;
+  /* line-height: 5.208vw; */
+  letter-spacing: 0%;
+  color: white;
+}
+
+
+.Gambarnya {
+  width: 20.573vw;
+  height:29.479vw;
+  top: -3.49vw;
+  left: 36.198vw;
+  
+  
+}
