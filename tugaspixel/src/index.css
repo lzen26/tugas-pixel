@@ -68,4 +68,183 @@ button:focus-visible {
 } */
 
 
+.mb {
+  display: none
+}
+
+.pc {
+  display: block
+}
+
+
+
+@media (max-width: 720px) {
+  .mb{
+    display: block;
+  }
+
+
+  
+
+  .kecerdasanVisual {
+
+    width: 24.861vw;
+    height:3.333vw;
+    /* top: -44.444vw;
+    left:-44.722vw; */
+    font-family: Inter;
+    font-weight: 97.222vw;
+    font-size: 2.778vw;
+    line-height: 13.889vw;
+    letter-spacing: 0%;
+    color: #86868B;
+  }
+
+  .LihatDunia {
+
+    width: 47.083vw;
+    height: 1.968vw;
+    /* top: -38.75vw;
+    left: -44.722vw; */
+    font-family: Inter;
+    font-weight: 97.222vw;
+    font-size: 5.833vw;
+    line-height: 13.889vw;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+  }
+
+  .GunakanKecerdasanVisual {
+
+    width: 64.861vw;
+    height: 21.389vw;
+    /* top: -135px; */
+    left: -44.722vw;
+
+
+    font-family: Inter;
+    font-weight: 97.222vw;
+    font-size: 2.5vw;
+    line-height: 0.889vw;
+    letter-spacing: 0%;
+    color: #86868B;
+  }
+
+
+
+
+
+  .pcGreyBackground {
+    display: none;
+
+    width: 100vw;
+    height: 177.778vw;
+    /* top: -62.778vw;
+    left:-61.667vw; */
+    /* background: #1F1E1E; */
+
+  }
+
+  .background {
+    /* width: 83.333vw;
+    height: 152.778vw; */
+
+    /* top: -50.278vw;
+    left: -53.333vw; */
+    border-radius: 2.778vw;
+    /* background: #000000; */
+    display: flex;
+    flex-direction: column;
+
+    /* margin-top: 219px;
+    margin-bottom: 219px;
+  
+    margin-left: 460px;
+    margin-right: 460px; */
+    flex-direction: column;
+  }
+
+
+  .divKhususMB{
+    width: 52.333vw;
+    height: 58.778vw;
+    border-radius: 2.778vw;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+  .Gambarnya {
+    width: 54.861vw;
+    height:78.611vw;
+    top: 23.889vw;
+    /* left: -32.361vw; */
+
+  }
+
+}
+
+
+/* @media (max-width: 720px) {
+  .mb {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .mobile-background {
+    flex-direction: column;
+    background: #000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .GambarMobile {
+    width: 70vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .mobile-text {
+    text-align: center;
+  }
+
+  .kecerdasanVisualMobile {
+    font-size: 18px;
+    color: #86868B;
+    margin-bottom: 10px;
+  }
+
+  .LihatDuniaMobile {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .GunakanKecerdasanVisualMobile {
+    font-size: 14px;
+    color: #86868B;
+    line-height: 1.5;
+  }
+
+  .spanMobile {
+    color: white;
+    font-weight: bold;
+  }
+} */
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');

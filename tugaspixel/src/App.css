@@ -1,4 +1,3 @@
-
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -48,7 +47,7 @@ html {
 }
 
 
-.GreyBackground {
+.pcGreyBackground {
 
   width: 1920;
   height: 1080;
@@ -65,18 +64,20 @@ html {
 .background {
   width: 52.083vw;
   height: 33.438vw;
-  top: -7.448vw;
+  /* top: -7.448vw; */
   left: 6.406vw;
   border-radius: 1.042vw;
   background: #000000;
   /* margin-top: 219px;
-  margin-bottom: 219px; */
-  /* margin-left: 460px;
+  margin-bottom: 219px;
+
+  margin-left: 460px;
   margin-right: 460px; */
+
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25vh;
+  margin-top: 10.302vw;
 
 }
 
@@ -150,3 +151,26 @@ html {
   
   
 }
+
+
+
+
+/* .mb {
+  display: none
+}
+
+.pc {
+  display: block
+}
+
+
+
+@media (max-width: 720px) {
+  .mbGreyBackground {
+    display: block;
+  }
+
+  .pcGreybackground {
+    display: none;
+  }
+} */
